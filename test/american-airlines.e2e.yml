@@ -1,0 +1,24 @@
+---
+configuration:
+    - description: American Airlines IVR tests
+
+---
+- test : Twilio Test
+- $DIAL : 
+    - transcript: 
+        - thanks for choosing american airlines
+        - welcome to american airlines
+        - thanks for calling American Airlines
+    - set finishOnPhrase: tell me what you're calling about
+    - set recognitionHints:
+        - thanks for choosing American Airlines
+        - in a few words please tell me what you're calling about
+-  new flight reservation : 
+    - transcript: Okay new reservations before we start
+    - set listeningTimeout: 15
+    - set repeatOnPhrase: 
+        - tell me what you are calling about
+        - what you're calling about like
+- https://bespoken-samples.s3.amazonaws.com/audios/YES.wav: 
+    - set finishOnPhrase: if all of the flights are within the United States press 1
+- $1: "*"
