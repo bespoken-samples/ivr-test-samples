@@ -11,6 +11,6 @@ The test is able to identify when to move to the next interaction via the `finis
 1. Apply for a free Bespoken trial at https://apps.bespoken.io
 2. Create your own Twilio Virtual Device: https://read.bespoken.io/end-to-end/setup/
 3. Replace this with your Virtual Device Token here: 
-https://github.com/bespoken-samples/ivr-test-samples/blob/4c92bcbdd7ee85c1ed4a3f63fe130503fbdb26d2/testing.json#L7
+https://github.com/bespoken-samples/ivr-test-samples/blob/master/testing.json#L7
 4. Install the Bespoken CLI: `npm install -g bespoken-tools`
 5. Clone this project and run: `bst test` in your command line
