@@ -8,7 +8,6 @@
 	"phoneNumber": "8004337300",
 	"trace": true,
 	"extraParameters": {
-		"recordCall": false,
-		"pauseSeconds": 2
+		"recordCall": false
 	}
 }
