@@ -4,7 +4,7 @@
 	"locale": "en-US",
 	"voiceId": "Joey",
 	"platform": "phone",
-	"virtualDeviceToken": "[replace me with your own Twilio Virtual Device]",
+	"virtualDeviceToken": "[replace me with your own Phone Virtual Device]",
 	"phoneNumber": "8004337300",
 	"trace": true,
 	"extraParameters": {
