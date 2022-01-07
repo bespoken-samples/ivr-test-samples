@@ -3,7 +3,7 @@
 	"asyncMode": true,
 	"locale": "en-US",
 	"voiceId": "Joey",
-	"platform": "twilio",
+	"platform": "phone",
 	"virtualDeviceToken": "[replace me with your own Twilio Virtual Device]",
 	"phoneNumber": "8004337300",
 	"trace": true,
